@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/colors.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style-rtl.css">
+
+
+
+  <title></title>
+</head>
+
+<body>
+
+  <section class="top-bar w-f">
+    <nav class="navbar navbar-expand navbar-light  justify-content-between">
+      <div class="collapse navbar-collapse " id="">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="tel:+966 235 4698">
+              <i class="fas fa-mobile-alt"></i>
+
+              <span  dir="ltr"> +966 235 4698 </span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  d-flex align-items-center" href="mailto:contact@stories.com">
+              <i class="fas fa-envelope"></i>
+              <span> contact@stories.com </span> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse" id="">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn  d-flex align-items-center" data-toggle="modal" data-target="#registration-modal">
+              <i class="far fa-user"></i>
+
+              <span> تسجيل دخول </span>
+            </a>
+          </li>
+          <li class="d-none d-lg-flex  align-items-center" ><span class="lines sec"></span></li>
+
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link btn  d-flex align-items-center" data-toggle="modal" data-target="#registration-modal-4">
+
+              <span> تسجيل </span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  d-flex align-items-center" data-toggle="modal" data-target="#registration-modal-3">
+              <span> Language: English </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section class="mid-bar w-f">
+    <div class="logo-md d-lg-none d-block" id="">
+      <ul class="navbar-nav">
+        <li class="nav-item logo">
+          <a class="nav-link" href="index.html">
+            <img src="assets/images/logo.png" alt="logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light   ">
+
+      <button class="border-0 p-0 navbar-toggler ml-0 mr-auto collapsed" type="button" id="formToggleBtn" data-toggle="collapse" data-target="#navbarFormSearch" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="">
+
+          <i class="fas fa-ellipsis-v text-dark"></i>
+
+        </span>
+      </button>
+      <button class="btn navbar-toggler mr-0 ml-auto" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarFormSearch">
+        <div class="w-100 d-flex justify-content-between ">
+          <div class="d-none d-lg-block" id="">
+            <ul class="navbar-nav">
+              <li class="nav-item logo">
+                <a class="nav-link" href="index.html">
+                  <img src="assets/images/logo.png" alt="logo"> </a>
+              </li>
+            </ul>
+          </div>
+          <div class=" mx-auto form">
+            <form class="form-inline mx-auto">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <ul class="navbar-nav ml-auto navbar-nav-custom">
+            <li class="nav-item d-none d-xl-block">
+              <a class="nav-link d-flex  align-items-center" href="#">
+                <div class="not-count">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <span>Location </span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown user">
+              <a class="nav-link dropdown-toggle d-flex " href="#" id="userDDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="not-count">
+                  <i class="far fa-user"></i>
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-user text-left" aria-labelledby="userDDown">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <i class="fas fa-credit-card"></i>
+
+                      </span>
+                      <p>طلبات بإنتظار الدفع</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span> <i class="fas fa-file-invoice-dollar"></i> </span>
+                      <p>قائمة الطلبات</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span> <i class="far fa-star"></i> </span>
+                      <p>تقييم المتجر و المنتجات</p>
+                    </a>
+                  </li>
+                  <hr>
+                  <li>
+                    <a href="#">
+                      <span> <i class="far fa-user"></i> </span>
+                      <p>إعدادات الحساب</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span> <i class="fas fa-sign-out-alt"></i> </span>
+                      <p>تسجيل خروج</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex  align-items-center" href="#">
+                <div class="not-count">
+                  <i class="far fa-bell"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link d-flex  align-items-center dropdown-toggle" href="#" id="favDDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="not-count">
+                  <i class="far fa-heart"></i>
+                  <span>15</span>
+                </div>
+                <span class="d-none d-lg-block">Favourites </span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-mid " aria-labelledby="favDDown">
+                <div class="">
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons d-flex flex-column">
+                      <a href="#"> <i class="fas fa-shopping-bag"></i> </a>
+                      <a href="#" class="text-danger"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons d-flex flex-column">
+                      <a href="#"> <i class="fas fa-shopping-bag"></i> </a>
+                      <a href="#" class="text-danger"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons d-flex flex-column">
+                      <a href="#"> <i class="fas fa-shopping-bag"></i> </a>
+                      <a href="#" class="text-danger"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons d-flex flex-column">
+                      <a href="#"> <i class="fas fa-shopping-bag"></i> </a>
+                      <a href="#" class="text-danger"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons d-flex flex-column">
+                      <a href="#"> <i class="fas fa-shopping-bag"></i> </a>
+                      <a href="#" class="text-danger"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link d-flex  align-items-center dropdown-toggle" href="#" id="cartDDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="not-count">
+                  <i class="fas fa-cart-plus"></i>
+                  <span>10</span>
+                </div>
+
+                <span class="d-none d-lg-block">Cart</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-mid " aria-labelledby="cartDDown">
+                <div class="">
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons h-100 d-flex  align-items-center">
+
+                      <a href="#" class="text-danger m-0"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons h-100 d-flex  align-items-center">
+
+                      <a href="#" class="text-danger m-0"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons h-100 d-flex  align-items-center">
+
+                      <a href="#" class="text-danger m-0"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons h-100 d-flex  align-items-center">
+
+                      <a href="#" class="text-danger m-0"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="dd-item d-flex">
+                    <div class="img mr-1">
+                      <img src="assets/images/1.png" alt="">
+                    </div>
+                    <div class="pl-3 text-left">
+                      <h1>كرسي </h1>
+                      <p>2 &times; 20.00 ر.س</p>
+                    </div>
+                    <div class="icons h-100 d-flex  align-items-center">
+
+                      <a href="#" class="text-danger m-0"> <i class="far fa-trash-alt"></i> </a>
+                    </div>
+                  </div>
+
+
+                </div>
+                <hr>
+                <div class="btns ">
+                  <div class="row align-items-center h-100">
+                    <div class="col text-left">
+                      <h3>هذا </h3>
+                      <h4 class="mb-0">95.00</h4>
+                    </div>
+                    <div class="col ">
+                      <div class="">
+                        <button class="btn sec d-flex align-items-center justify-content-center ml-auto" type="button" name="button">
+                          Next
+
+                          <i class="fas fa-long-arrow-alt-right d-block ml-2"></i>
+                        </button>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link d-flex  align-items-center" href="#">
+                <div class="not-count">
+                  <i class="fas fa-language"></i>
+                </div>
+                <span>EN </span>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+  </section>
+
+  <section class="w-f bottom-bar">
+    <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <button class="navbar-toggler navbar-toggler-right collapsed text-center d-flex justify-content-center align-items-center" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span> أزياء </span> </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span> إلكترونيات </span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span> مطاعم </span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><span> أثاث </span> </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><span> مصانع </span> </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span> معدات طبية </span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">
+              <i class="fas fa-tags"></i>
+              <span> العروض </span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">
+              <i class="fas fa-gift"></i>
+              <span> أرسل هدية </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+
+
+
+
+
+
+  <section class="product-details-s w-f">
+    <header class="line-links">
+      <a href="#">الرئيسية</a>
+      <a href="#">تفاصيل المنتج</a>
+    </header>
+    <div class="single-product s-item-for-img">
+      <div class="row">
+        <div class="col-lg-6 imgs">
+
+          <div class="imgg img-4-animation w-100 d-block">
+            <img src="assets/images/product.png" alt="" id="single-product-img">
+          </div>
+
+          <div class="d-flex">
+            <button class="scrolling-prev-btn d-inline-block" type="button" name="button" for="single-product"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="imgs-list" id="single-product">
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/1.png" alt="">
+              </div>
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/product.png" alt="">
+              </div>
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/product.png" alt="">
+              </div>
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/product.png" alt="">
+              </div>
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/5.png" alt="">
+              </div>
+              <div class="img" for="single-product-img">
+                <img class=" img-fluid" src="assets/images/product.png" alt="">
+              </div>
+
+            </div>
+            <button class="scrolling-next-btn d-inline-block" type="button" name="button" for="single-product"><i class="fas fa-chevron-right"></i></button>
+
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6 info text-left">
+          <h1>أثاث</h1>
+          <h2>كرسي خشبي</h2>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i style="color: #DBDBDB;" class="fas fa-star"></i>
+            <i style="color: #DBDBDB;" class="fas fa-star"></i>
+            <i style="color: #DBDBDB;" class="fas fa-star"></i>
+
+          </div>
+          <h3 class="price">100.00</h3>
+          <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
+          <h6>الكمية</h6>
+          <div class="quantity d-flex  justify-content-between">
+            <button type="button" name="button">-</button>
+            <span class="align-self-center">1</span>
+            <button type="button" name="button">+</button>
+          </div>
+          <div class="detail">
+            <label for="">
+              <h6>كتابة ملاحظة</h6>
+            </label>
+            <textarea name="name" rows="8" cols="80" placeholder="… أدخل ملاحظتك إن وجدت"></textarea>
+          </div>
+
+
+          <div class="detail choose">
+            <label for="">
+              <h6> ارفاق صورة</h6>
+            </label>
+            <div class="text-center">
+              <i class="fas fa-camera"></i>
+              <p>اسحب و أفلت الصورة أو اضغط هنا</p>
+            </div>
+          </div>
+
+          <div class="submit-t-btns d-flex justify-content-between">
+            <button class="pri" type="button" name="button"> <i class="far fa-heart"></i> </button>
+            <button class="sec add-to-cart"  type="button" name="button">
+              <i class="fas fa-shopping-bag"></i>
+               إضافة إلى السلة</button>
+
+
+          </div>
+          <div class="social  d-flex justify-content-left">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="sliding-items-s w-f">
+    <div class="items-s-list-btn">
+      <h1>آخر العروض</h1>
+      <button class="scrolling-prev-btn" type="button" name="button" for="scrolling-items-1"><i class="fas fa-chevron-left"></i></button>
+      <button class="scrolling-next-btn" type="button" name="button" for="scrolling-items-1"><i class="fas fa-chevron-right"></i></button>
+
+    </div>
+    <hr>
+
+    <div class="items-s-list" id="scrolling-items-1">
+      <div class="item-s">
+        <div class="img">
+          <img class="img-fluid" src="assets/images/1.png" alt="">
+        </div>
+        <p>معدات طبية</p>
+        <h1>جهاز قياس حراره من على بعد</h1>
+        <h2><span> 35 RS </span><span>75.00 ر.س</span></h2>
+        <button type="button" name="button"> <i class="fas fa-shopping-bag"></i>  إضافة إلى السلة</button>
+        <button type="button" name="button"> <i class="far fa-heart"></i> </button>
+      </div>
+
+      <div class="item-s">
+        <div class="img">
+          <img class="img-fluid" src="assets/images/2.png" alt="">
+        </div>
+        <p>معدات طبية</p>
+        <h1>جهاز قياس حراره من على بعد</h1>
+        <h2><span> 35 RS </span><span>75.00 ر.س</span></h2>
+        <button type="button" name="button"> <i class="fas fa-shopping-bag"></i>  إضافة إلى السلة</button>
+        <button type="button" name="button"> <i class="far fa-heart"></i> </button>
+      </div>
+
+      <div class="item-s">
+        <div class="img">
+          <img class="img-fluid" src="assets/images/3.png" alt="">
+        </div>
+        <p>معدات طبية</p>
+        <h1>جهاز قياس حراره من على بعد</h1>
+        <h2><span> 35 RS </span><span>75.00 ر.س</span></h2>
+        <button type="button" name="button"> <i class="fas fa-shopping-bag"></i>  إضافة إلى السلة</button>
+        <button type="button" name="button"> <i class="far fa-heart"></i> </button>
+      </div>
+
+      <div class="item-s">
+        <div class="img">
+          <img class="img-fluid" src="assets/images/4.png" alt="">
+        </div>
+        <p>معدات طبية</p>
+        <h1>جهاز قياس حراره من على بعد</h1>
+        <h2><span> 35 RS </span><span>75.00 ر.س</span></h2>
+        <button type="button" name="button"> <i class="fas fa-shopping-bag"></i>  إضافة إلى السلة</button>
+        <button type="button" name="button"> <i class="far fa-heart"></i> </button>
+      </div>
+
+      <div class="item-s">
+        <div class="img">
+          <img class="img-fluid" src="assets/images/5.png" alt="">
+        </div>
+        <p>معدات طبية</p>
+        <h1>جهاز قياس حراره من على بعد</h1>
+        <h2><span> 35 RS </span><span>75.00 ر.س</span></h2>
+        <button type="button" name="button"> <i class="fas fa-shopping-bag"></i>  إضافة إلى السلة</button>
+        <button type="button" name="button"> <i class="far fa-heart"></i> </button>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <footer class="">
+    <section class="top-footer w-f">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>سجل للإشتراك في آخر الأخبار</h1>
+          <p>احصل على آخر المعلومات و المنتجات و العروض و التخفيضات</p>
+        </div>
+        <div class="col-lg-6">
+          <form class="d-flex  justify-content-between" action="index.html" method="post">
+            <input type="text" name="" placeholder="البريد الإلكتروني">
+            <button type="button" name="button">اشتراك</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="mid-footer text-left w-f">
+      <div class="row">
+        <div class="col-lg-4 col-md-7 col-12">
+          <a class="logo" href="index.html"> <img src="assets/images/logo.png" alt=""> </a>
+          <p>متجر طبي خاص ببيع المنتجات الطبية، منتجات العناية بالبشرة ، الجلد ، الشعر، الأدوات الطبية جميع المتعلقات الطبية , جميع ادوات التعقيم والوقاية</p>
+
+          <div class="addresses">
+            <a class="contact" href="https://wa.me/+9662354698">
+              <div class="d-flex mb-2">
+                <span>  <i class="fab fa-whatsapp"></i> </span>
+                <span class="w-100" dir="ltr">+966 235 4698</span>
+              </div>
+            </a>
+            <a class="contact" href="mailto:contact@stories.com">
+              <div class="d-flex mb-2">
+                <span> <i class="fas fa-envelope"></i> </span>
+                <span class="w-100">contact@stories.com</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-5 col-12">
+          <h1>روابط مهمة</h1>
+          <ul>
+            <li><a href="#">من نحن</a> </li>
+            <li><a href="#">تواصل معنا</a> </li>
+            <li><a href="#">سياسة الخصوصية</a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12">
+          <h1>تابعنا على شبكات التواصل الاجتماعي</h1>
+          <a class="social" href="#"> <i class="fab fa-facebook-f"></i> </a>
+          <a class="social" href="#"> <i class="fab fa-twitter"></i> </a>
+          <a class="social" href="#"> <i class="fab fa-instagram"></i> </a>
+          <a class="social" href="#"> <i class="fab fa-youtube"></i> </a>
+          <a class="social" href="#"> <i class="fab fa-linkedin"></i> </a>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section class="bottom-footer w-f">
+      <div class="row align-items-center">
+        <div class="col-xl-6 d-none d-md-block text-left">
+
+          <p>جميع الحقوق محفوظة 2 021 © بواسطة </p>
+          <a class="logo" href="#"> <img src="assets/images/logo.png" alt=""> </a>
+
+
+        </div>
+        <div class="col-xl-6 text-right">
+          <img class="payments" src="assets/images/payment1.png" alt="payments">
+          <img class="payments" src="assets/images/payment2.png" alt="payments">
+          <img class="payments" src="assets/images/payment3.png" alt="payments">
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="assets/js/slick/slick.js" type="text/javascript">
+
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/js/main.js" type="text/javascript">
+
+  </script>
+</body>
+
+</html>
